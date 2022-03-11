@@ -4,7 +4,12 @@ import Items from "./components/Items";
 
 function App() {
   const items = ["cars", "Bikes", "Boats"];
-  return <Items items={items} />;
+  return (
+    <div>
+      <h1>welcome to edureka</h1>
+      <Items items={items} />
+    </div>
+  );
 }
 
 export default App;
